@@ -26,6 +26,32 @@ dependencies:
     sdk: flutter
 ```
 
+### 所有包含的页面
+```
+routes: {
+  '/': (context) => TabbarRoute(),
+  'login': (context) => LoginRoute(),
+  'register': (context) => RegisterRoute(),
+  'forget': (context) => ForgetRoute(),
+  'mylike': (context) => MyLoveRoute(),
+  'didread': (context) => ReadRoute(),
+  'mycollect': (context) => MyCollectRoute(),
+  'feedback': (context) => FeedbackRoute(),
+  'set': (context) => SetRoute(),
+  'email': (context) => EmailRoute(),
+  'mobile': (context) => MobileRoute(),
+  'modifypsw': (context) => ModifyPswRoute(),
+  'weekhot': (context) => WeekRoute(),
+  'collectset': (context) => CollectSetRoute(),
+  'activityoffline': (context) => ActivityOfflineRoute(),
+  'column': (context) => ColumnRoute(),
+  'web': (context, ) {
+    var args = ModalRoute.of(context).settings.arguments as Map<String, String>;
+    return WebRoute(title: args['title'], url: args['url'],);
+  },
+}
+```
+
 ## Screenshot
 <img src = "./screenshot/home.png" width = "417"><img src = "./screenshot/community.png" width = "417"><img src = "./screenshot/login.png" width = "417">
 <img src = "./screenshot/my.png" width = "417"><img src = "./screenshot/read.png" width = "417">
