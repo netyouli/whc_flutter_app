@@ -22,7 +22,7 @@ class SetRoute extends StatelessWidget {
               SetItem(title: '手机号'),
               SetItem(title: '修改账号密码'),
               Padding(
-                padding: EdgeInsets.only(top: 40),
+                padding: EdgeInsets.fromLTRB(20, 40, 20, 0),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(6),
                   child: FlatButton(
