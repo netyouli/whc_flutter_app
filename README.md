@@ -7,7 +7,7 @@ A complete flutter app with complete data interaction capabilities.
 
 Provide learning advice for learning flutter development
 
-一个完整的flutter app 并且带有完整的数据交互实现
+一个完整的flutter app 并且带有完整的数据交互实现,各种常用组件的使用，封装（网络，banner，列表刷新，状态管理局部ui刷新。。。。）
 
 **app所使用数据接口文档地址：**[http://www.wuhaichao.com/api_doc/](http://www.wuhaichao.com/api_doc/)
 
