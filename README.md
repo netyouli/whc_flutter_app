@@ -3,9 +3,9 @@
 
 [![License Apache2.0](https://img.shields.io/hexpm/l/plug.svg)](https://raw.githubusercontent.com/attentiveness/whcapp/master/LICENSE)
 
-A complete react-native app with complete data interaction capabilities.
+A complete flutter app with complete data interaction capabilities.
 
-Provide learning advice for learning react-native development
+Provide learning advice for learning flutter development
 
 一个完整的flutter app 并且带有完整的数据交互实现
 
