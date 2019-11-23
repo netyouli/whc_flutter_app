@@ -20,7 +20,26 @@ class SetRoute extends StatelessWidget {
             children: <Widget>[
               SetItem(title: '邮箱'),
               SetItem(title: '手机号'),
-              SetItem(title: '修改账号密码')
+              SetItem(title: '修改账号密码'),
+              Padding(
+                padding: EdgeInsets.only(top: 40),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(6),
+                  child: FlatButton(
+                    color: AppColor.theme,
+                    onPressed: () {
+                      User.exitLogin();
+                      Navigator.of(context).pop();
+                    },
+                    child: Container(
+                      width: double.infinity,
+                      alignment: Alignment.center,
+                      height: 44,
+                      child: Text('退出登录', style: TextStyle(color: Colors.white),),
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),

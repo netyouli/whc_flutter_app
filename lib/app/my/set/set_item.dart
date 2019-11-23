@@ -51,7 +51,7 @@ class SetItem extends StatelessWidget {
             value
           ],
         ),
-      ),
+      )
     );
   }
 }
