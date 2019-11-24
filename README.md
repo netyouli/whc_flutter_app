@@ -13,6 +13,8 @@ Provide learning advice for learning flutter development
 
 **个人网站：**[http://www.wuhaichao.com](http://www.wuhaichao.com)
 
+**android版本体验下载: **[https://fir.im/jlhu](https://fir.im/jlhu)
+
 **Support: Android 5+   iOS 8.0+**
 
 ## App Architecture
