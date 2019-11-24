@@ -15,8 +15,6 @@ Provide learning advice for learning flutter development
 
 **android版本体验下载：**[https://fir.im/jlhu](https://fir.im/jlhu)
 
-**android版本体验下载：**[https://fir.im/jlhu](https://fir.im/jlhu)
-
 **react-native开源版本：**[https://github.com/netyouli/react-native-whcapp](https://github.com/netyouli/react-native-whcapp)
 
 **Support: Android 5+   iOS 8.0+**
