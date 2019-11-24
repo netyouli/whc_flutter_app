@@ -1,3 +1,8 @@
+/*
+ * @copyright whc 2019
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * https://github.com/netyouli/whc_flutter_app
+ */
 import 'dart:async';
 
 import 'package:flutter/material.dart';

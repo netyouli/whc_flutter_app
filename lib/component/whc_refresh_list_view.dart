@@ -1,3 +1,8 @@
+/*
+ * @copyright whc 2019
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * https://github.com/netyouli/whc_flutter_app
+ */
 import 'package:flutter/material.dart';
 import 'package:whc_flutter_app/component/whc_inherited_widget.dart';
 

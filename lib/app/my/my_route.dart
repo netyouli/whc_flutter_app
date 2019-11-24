@@ -1,5 +1,9 @@
 
-
+/*
+ * @copyright whc 2019
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * https://github.com/netyouli/whc_flutter_app
+ */
 import 'package:flutter/material.dart';
 import 'package:whc_flutter_app/app/my/login/login.dart';
 import 'package:whc_flutter_app/app/my/my_item.dart';
@@ -145,6 +149,7 @@ class _MyRouteState extends State<MyRoute> {
                   _goLogin((ok){
                     if (ok) {
                       Navigator.of(context).pushNamed('set');
+
                     }
                   });
                 },),

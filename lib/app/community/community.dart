@@ -1,3 +1,9 @@
+/*
+ * @copyright whc 2019
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * https://github.com/netyouli/whc_flutter_app
+ */
+
 import 'package:whc_flutter_app/app/my/love/my_love.dart';
 
 class Community {

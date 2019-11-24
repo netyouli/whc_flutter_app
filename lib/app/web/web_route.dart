@@ -1,3 +1,8 @@
+/*
+ * @copyright whc 2019
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * https://github.com/netyouli/whc_flutter_app
+ */
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:whc_flutter_app/component/loading.dart';
@@ -76,7 +81,7 @@ class _WebRouteState extends State<WebRoute> {
                 _controller.evaluateJavascript("document.title").then((result){
                   _url = url;
                   Loading.close();
-                  _loading = false;
+                  //_loading = false;
                   _titleState.title = result;
                 });
               },

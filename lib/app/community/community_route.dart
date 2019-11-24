@@ -1,11 +1,14 @@
-
+/*
+ * @copyright whc 2019
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * https://github.com/netyouli/whc_flutter_app
+ */
 
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:whc_flutter_app/app/community/community.dart';
-import 'package:whc_flutter_app/app/community/community.dart' as prefix0;
 import 'package:whc_flutter_app/app/my/love/my_love_cell.dart';
 import 'package:whc_flutter_app/component/loading.dart';
 import 'package:whc_flutter_app/component/whc_banner.dart';
@@ -80,7 +83,7 @@ class _CommunityRouteState extends State<CommunityRoute> {
                 Image.asset(image, width: 30, height: 30, fit: BoxFit.cover,),
                 Padding(
                   padding: EdgeInsets.only(top: 10),
-                  child: Text(title),
+                  child: Text(title, style: TextStyle(fontSize: 13),),
                 )
               ],
             ),

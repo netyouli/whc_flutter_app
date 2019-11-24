@@ -1,3 +1,8 @@
+/*
+ * @copyright whc 2019
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * https://github.com/netyouli/whc_flutter_app
+ */
 class Api {
   static final login = 'login/';
   static final register = 'register/';
