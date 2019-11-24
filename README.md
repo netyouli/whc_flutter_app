@@ -53,7 +53,7 @@ routes: {
 ```
 
 ## Screenshot
-<img src = "./screenshot/home.png" width = "417"><img src = "./screenshot/community.png" width = "417"><img src = "./screenshot/login.png" width = "417">
+<img src = "./screenshot/home.png" width = "417"><img src = "./screenshot/android_home.png" width = "375"><img src = "./screenshot/community.png" width = "417"><img src = "./screenshot/login.png" width = "417">
 <img src = "./screenshot/my.png" width = "417"><img src = "./screenshot/read.png" width = "417">
 
 
