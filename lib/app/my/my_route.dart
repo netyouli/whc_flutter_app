@@ -148,8 +148,11 @@ class _MyRouteState extends State<MyRoute> {
                 MyItem(title: '设置', iconPath: 'images/my_set_icon.png', onPressed: (){
                   _goLogin((ok){
                     if (ok) {
-                      Navigator.of(context).pushNamed('set');
-
+                      Navigator.of(context).pushNamed('set').then((isexit){
+                        if (isexit = true) {
+                          _userInfo.copySelf(Login());
+                        }
+                      });
                     }
                   });
                 },),

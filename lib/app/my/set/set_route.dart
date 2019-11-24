@@ -34,7 +34,7 @@ class SetRoute extends StatelessWidget {
                     color: AppColor.theme,
                     onPressed: () {
                       User.exitLogin();
-                      Navigator.of(context).pop();
+                      Navigator.of(context).pop(true);
                     },
                     child: Container(
                       width: double.infinity,
