@@ -11,8 +11,6 @@ Provide learning advice for learning flutter development
 
 **app所使用数据接口文档地址：**[http://www.wuhaichao.com/api_doc/](http://www.wuhaichao.com/api_doc/)
 
-**个人网站：**[http://www.wuhaichao.com](http://www.wuhaichao.com)
-
 **android版本体验下载：**[https://fir.im/jlhu](https://fir.im/jlhu)
 
 **react-native开源版本：**[https://github.com/netyouli/react-native-whcapp](https://github.com/netyouli/react-native-whcapp)
